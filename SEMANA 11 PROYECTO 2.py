@@ -1,5 +1,5 @@
 #Pizarra (whiteboard)
-# Crear una matriz bidimensional de ejemplo
+#crear una matriz bidimensionalde ejemplo
 matriz = [
     [70,60,14],
     [89,90,15],
