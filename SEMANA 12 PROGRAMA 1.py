@@ -123,12 +123,16 @@ temperaturas = [
 no_ciudad = 0
 for ciudad in temperaturas:
     no_ciudad += 1
-    print(f'CIUDAD No. {no_ciudad}')
+    print('CIUDAD No. {no-ciudad}')
     no_semana = 0
     for semana in ciudad:
         no_semana += 1
         suma = 0
         for dia in semana:
-             suma += dia['temp']
-             promedio = round(suma / len(semana), 2)
-             print(f'El promedio semana No. {no_semana}es: {promedio}')
+            suma += dia['temp']
+            promedio =round(suma/len(semana),2)
+        print(F'El promedio semana No.{no_semana}es: {promedio}')
+
+
+
+
